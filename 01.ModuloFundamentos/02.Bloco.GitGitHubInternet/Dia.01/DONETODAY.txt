@@ -1,0 +1,16 @@
+# Bloco 2
+# Git | GitHub | Internet - parte 1
+# O que foi feito?
+
+Hoje trabalhamos o Git e seus comandos básicos:
+> git init 
+> git branch 
+> git checkout
+> git add 
+> git commit 
+> git status 
+> git feature
+
+Conceitos como:
+> main/master
+> ramificação
