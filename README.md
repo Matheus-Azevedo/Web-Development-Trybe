@@ -11,3 +11,5 @@ O Curso é organizado em 4 modúlos:
 02. Desenvolvimento Front-End
 03. Desenvolvimento Back-End
 04. Cinência da Computação
+
+LINK: https://www.betrybe.com/
