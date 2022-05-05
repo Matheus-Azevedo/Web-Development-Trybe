@@ -1,5 +1,5 @@
 # Web-Development-Trybe
-Este é o meu repositório de Desenvolvimento Web da Trybe aqui você encontrará os projetos realizados durante todo o curso.
+Este é o meu repositório de Desenvolvimento Web da Trybe aqui você encontrará as atividades realizadas durante todo o curso.
 
 A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional de seus alunos. 
 
