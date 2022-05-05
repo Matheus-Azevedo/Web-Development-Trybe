@@ -15,3 +15,7 @@ Hoje vimos os conceitos relacionados a Internet:
 > Banco de Dados
 > Servidor de serviços (Autenticação,Email)
 > Porta 80;
+
+Dinamica em grupo:
+> Mapeamos o fluxo da requisição feita pelo cliente para Servidor;
+> Mapeamos o fluxo de resposta do Servidor para o Cliente;
