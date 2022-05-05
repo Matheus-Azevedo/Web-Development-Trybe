@@ -1,0 +1,17 @@
+# Bloco 2
+# Git | GitHub | Internet - parte 2
+# O que foi feito?
+
+Hoje trabalhamos o Git com o GitHub:
+> git init 
+> git branch 
+> git checkout
+> git add 
+> git commit 
+> git status 
+> git feature
+
+Conceitos como:
+> main/master
+> ramificação
+> Pull Requests

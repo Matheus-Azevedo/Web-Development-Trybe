@@ -1,0 +1,17 @@
+# Bloco 2
+# Git | GitHub | Internet - parte 3
+# O que foi feito?
+
+Hoje vimos os conceitos relacionados a Internet:
+> TCP/IP;
+> Camada OSI;
+> HTTP/HTTPS;
+> Resquisição e Resposta;
+> Cliente e Servidor;
+> REST/RESTful 
+> Curl
+> DNS 
+> Balanceador de Carga
+> Banco de Dados
+> Servidor de serviços (Autenticação,Email)
+> Porta 80;
