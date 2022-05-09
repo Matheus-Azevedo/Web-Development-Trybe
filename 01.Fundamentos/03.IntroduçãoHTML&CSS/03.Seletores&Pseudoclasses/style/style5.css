@@ -1,0 +1,56 @@
+ul,ol {
+    font-size: 20px;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.impar {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.par {
+    background-color: green;
+    
+}
+
+.pl {
+    color: blue;   
+}
+
+.rosa {
+    background-color: pink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+h1 {
+    font-size: 40px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.so:hover {
+    background-color: orange;
+
+}
+.w3:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.mdn:hover {
+    background-color: black;
+}
+
+.dd:hover {
+    background-color: rgb(255, 255, 102);
+}
+
+.trybe:hover {
+    background-color: rgb(130, 223, 130);
+
+}
