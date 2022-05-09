@@ -1,0 +1,12 @@
+h1,p {
+    text-align: center;
+}
+
+li:hover {
+    background-color:brown;
+    font-style: italic;
+    list-style:circle;
+}
+
+
+
