@@ -1,0 +1,27 @@
+.div1:hover {
+    background-color: cadetblue;
+}
+
+.div2:hover {
+    background-color:rgb(21, 101, 104);
+}
+
+.div3:hover {
+    background-color: rgb(66, 241, 247);
+    font-size: 50px;
+}
+
+.div4:hover {
+    background-color: rgb(9, 58, 59);
+}
+
+.div5:hover {
+    background-color: rgb(170, 252, 255);
+}
+
+h3:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h3impar:hover{
+    font-style: italic;
+}
