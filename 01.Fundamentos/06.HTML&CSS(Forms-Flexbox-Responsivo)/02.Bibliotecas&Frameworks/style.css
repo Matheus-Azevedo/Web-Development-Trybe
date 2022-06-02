@@ -1,0 +1,13 @@
+#text-area {
+    resize: none;
+}
+#forms {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: gray solid 1px;
+}
+
+#clear {
+    margin-left: 630px;
+}

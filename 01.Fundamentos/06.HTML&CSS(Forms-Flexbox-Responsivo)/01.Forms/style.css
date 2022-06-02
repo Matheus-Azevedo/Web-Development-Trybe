@@ -1,0 +1,25 @@
+* {
+    margin: 3px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: white;
+}
+#forms {
+    border: black solid 2px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ghostwhite;
+}
+
+#env {
+    margin-left: 50px;
+}
+#env, #clear {
+    border-radius: 5px;
+}

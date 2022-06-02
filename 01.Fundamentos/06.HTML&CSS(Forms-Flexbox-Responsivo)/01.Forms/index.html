@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Formulário TrybeTrip</h1>
+      <form action="" method="get" id="forms">
+        <div class="line-content">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" min="10" max="40" />
+        </div>
+        <div class="line-content">
+          <label for="email">Email:</label>
+          <input type="text" id="email" min="10" max="50" />
+        </div>
+        <div class="line-content">
+          <input type="radio" name="destino-preferido" id="cidade" />Cidade
+          <input type="radio" name="destino-preferido" id="campo" />Campo
+          <input type="radio" name="destino-preferido" id="praia" />Praia
+          <input type="radio" name="destino-preferido" id="montanhas"/>Montanhas
+        </div>
+        <div class="line-content">
+          <label for="text-area"
+            >Por que você deveria ser a pessoa desenvolvedora a ganhar o
+            concurso TrybeTrip?
+						</label>
+          <textarea
+            id="text-area"
+            cols="40"
+            rows="10"
+            maxlength="500"
+            placeholder="Limite de 500 caracteres"
+          ></textarea>
+        </div>
+        <div class="line-content">
+          <label for="date-trip"
+            >Qual a melhor data para realizar sua viagem?
+					</label>
+          <input type="date" name="date-trip" id="date-trip" />
+        </div>
+        <div class="line-content">
+          <label for="trip-info"
+            >Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe?</label>
+						<br>
+          <input type="radio" name="trip-info" id="yes-info" />Sim
+          <input type="radio" name="trip-info" id="no-info" />Não
+        </div>
+        <div class="line-content">
+          <label for="img-info"
+            >Concorda que as imagens das suas férias sejam usadas na
+            divulgação de concursos futuros?</label>
+						<br>
+          <input type="radio" name="img-info" id="yes-img" />Sim
+          <input type="radio" name="img-info" id="no-img" />Não
+        </div>
+      </form>
+			<div class="line-content">
+				<input type="submit" value="Enviar" id="env">
+				<input type="reset" value="Limpar" id="clear">
+			</div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
