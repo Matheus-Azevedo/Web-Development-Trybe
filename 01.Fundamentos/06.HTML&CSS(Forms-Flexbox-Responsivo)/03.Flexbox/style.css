@@ -1,0 +1,23 @@
+#text-area {
+    resize: none;
+}
+#forms {
+    border: gray solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 850px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destino-preferido-content{
+    /* padding: 0;
+    margin: 0;
+    width: 20%; */
+    display: flex;
+}
