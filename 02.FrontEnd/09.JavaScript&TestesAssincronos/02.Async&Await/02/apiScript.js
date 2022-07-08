@@ -23,7 +23,7 @@ const fetchJoke = () => {
       html += '</tr>';
       array.forEach((element) => {
         html += '<tr>';
-        html += `<td> ${element.id} </tb>`;
+        html += `<td> ${element.name} </tb>`;
         html += `<td> ${element.rank} </tb>`;
         html += `<td> ${element.priceUsd} </tb>`;
         html += '</tr>';
