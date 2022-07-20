@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-content {
+  display: flex;
+  width: 150px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 3px;
+  border-radius: 10%;
+}
+
+.pokemon-content .pokemon-info {
+  display: flex;
+  flex-direction: column;
+}
