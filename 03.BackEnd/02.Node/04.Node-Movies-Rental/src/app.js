@@ -3,7 +3,7 @@
 const express = require('express');
 const app = express();
 // Importing the readMovies function
-const readMovies = require('./index');
+const readMovies = require('./movies');
 
 // Criando o CRUD de filmes
 // GET all movies
@@ -48,7 +48,8 @@ app.delete('/movies/:id', async (req, res) => {
     res.status(404).json({ message: 'Movie not found' });
   }
   movies.splice(movieIndex, 1);
-  res.status(200).json({ message: 'Movie deleted' });
+  res.status(200).end();
 });
+
 
 module.exports = app;
