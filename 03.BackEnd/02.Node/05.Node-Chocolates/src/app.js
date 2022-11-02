@@ -10,15 +10,15 @@ app.use(express.json());
 
 // Routes
 // GET /chocolate
-app.get('/chocolate', async (req, res) => {
+app.get('/chocolates', async (req, res) => {
   const chocolates = await getChocolate();
   res.status(OK).json(chocolates);
 });
 // GET /chocolate/:id
-app.get('/chocolate/:id', async (req, res) => {
+app.get('/chocolates/:id', async (req, res) => {
   const { id } = req.params;
   const chocolates = await getChocolate();
-  const chocolate = chocolate.find((chocolate) => chocolate.id === Number(id));
+  const chocolate = chocolates.find((chocolate) => chocolate.id === Number(id));
   if (!chocolate) return res.status(NOT_FOUND).json({ message: 'Chocolate not found' });
   res.status(OK).json(chocolate);
 });
@@ -35,3 +35,5 @@ app.get('/brands/:id', async (req, res) => {
   if (!brand) return res.status(NOT_FOUND).json({ message: 'Brand not found' });
   res.status(OK).json(brand);
 });
+
+module.exports = app;

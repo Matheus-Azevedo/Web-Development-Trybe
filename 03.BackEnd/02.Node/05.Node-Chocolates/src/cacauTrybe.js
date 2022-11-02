@@ -6,21 +6,21 @@ const CACAU_PATH = './resources/cacauTrybeFile.json';
 
 async function readCacauTrybeFile() {
   try {
-   const data = readFile(join(__dirname, CACAU_PATH), 'utf8');
+   const data = await readFile(join(__dirname, CACAU_PATH), 'utf8');
    return JSON.parse(data);
   } catch (error) {
-   return null;
+   return null
   }   
 }
 
 async function getChocolate() {
-  const cacau = await readCacauTrybeFile();
-  return cacau.chocolate;
+  const data = await readCacauTrybeFile();
+  return data.chocolates;
 }
 
 async function getBrands() {
-  const cacau = await readCacauTrybeFile();
-  return cacau.brands;
+  const data = await readCacauTrybeFile();
+  return data.brands;
 }
 
 module.exports = {
