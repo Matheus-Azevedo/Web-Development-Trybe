@@ -1,5 +1,6 @@
 import requests
 import json
+import csv
 
 
 def get_books() -> list:
@@ -28,4 +29,17 @@ def calculate_percentage(books: list, categories: dict) -> dict:
     return categories
 
 
-print(calculate_percentage(get_books(), books_count_category(get_books())))
+def save_in_CSV_file(categories: dict) -> None:
+    with open('./categories.csv', 'w') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Category', 'Percentage'])
+        for category in categories:
+            writer.writerow([category, categories[category]])
+    print('File saved successfully!')
+
+
+if __name__ == '__main__':
+    books = get_books()
+    categories = books_count_category(books)
+    categories_by_percentage = calculate_percentage(books, categories)
+    save_in_CSV_file(categories_by_percentage)
